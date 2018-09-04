@@ -1,4 +1,4 @@
-//META{"name":"Blackcord","description":"Nearly completely black and white discord","author":"joo#2111","version":"3 Release"}*//{}
+//META{"name":"Blackcord","description":"Nearly completely black and white discord","author":"joo#2111","version":"3.0.1 Release"}*//{}
 
 /* Variables */
 :root {  
@@ -76,9 +76,6 @@
 		.contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active {
 			background-color: var(--invisibleColor);
 		}
-
-
-
 
 	/* DMs */
 
@@ -243,11 +240,13 @@
 	.theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {
 		background: #111;
 	}
+
 	/* Big Code Block background (i think) */
 	.theme-dark .markup-2BOw-j pre {
 		background: #111;
 		border-color: rgba(32,34,37,0);
 	}
+
 	/* @Mention AutoFill Menu */
 	.theme-dark .autocomplete-1vrmpx {
 		background-color: var(--darkColor);
@@ -769,6 +768,7 @@
 			background: #000;
 			box-shadow: 0 0 1px rgba(0,0,0,.82), 0 1px 4px rgba(0,0,0,.1);
 		}
+
 		/* Item hover*/
 		.theme-dark .item-1GzJrl:hover {
 			background-color: #000;
@@ -780,15 +780,17 @@
 		.theme-dark .searchBar-1MOL6S {
 			background-color: #000;
 		}
+
 		/* Add role popout Header background */
 		#autocomplete-popout header {
 			background-color: #000;
 		}
+
 		/* Add role popout Background */
-			.theme-dark #autocomplete-popout section {
-				background-color: #000;
-				color: #000;
-			}
+		.theme-dark #autocomplete-popout section {
+			background-color: #000;
+			color: #000;
+		}
 		/* Add role popout Selected */
 		.theme-dark #autocomplete-popout .row.selected {
 			background: #000;
@@ -799,15 +801,18 @@
 		.theme-dark .input-cIJ7To:hover {
 			border-color: #000;
 		}
+
 		/* Edit emote name Background */
 		.theme-dark .emoji-alias-input .emoji-input {
 			background-color: #000;
 		}
+
 		/*Edit emote name fix because devs cant align text*/
 		.inputMini-2xQV9P {
 			height: 26px;
 			padding: 4px 7px 2px 6px;
 		}
+
 		/* Edit emote name Input box background */
 		.theme-dark .emoji-alias-input .emoji-input {
 			background-color: var(--invisibleColor);
@@ -823,6 +828,7 @@
 			background-color: rgba(255,255,255,.7);
 			color: #fff;
 		}
+
 		.theme-dark .wrapper-3WhCwL {
 			background-color: rgba(255,255,255,.1);
 			color: #FFF;
@@ -853,15 +859,18 @@
 		.theme-dark .header-ykumBX {
 			background-color: #000;
 		}
+
 		/* Background */
 		.theme-dark .messagesPopoutWrap-1MQ1bW {
 			background-color: #000;
 		}
+
 		/* Message */
 		.theme-dark .messageGroupWrapper-o-Zw7G {
 			background-color: #000;
 			border-color: rgba(28,36,43,.0);
 		}
+
 		.theme-dark .messagesPopoutWrap-1MQ1bW {
 			-webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,20%);
 			background-color: #000;
@@ -875,10 +884,12 @@
 			background-color: var(--invisibleColor);
 			color: #dcddde;
 		}
+
 		/* Border */
 		.quickswitcher-3JagVE {
 			box-shadow: none;
 		}
+
 		/* Text box */
 		.theme-dark .input-2VB9rf {
 			-webkit-box-shadow: none;
